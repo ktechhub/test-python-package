@@ -6,6 +6,24 @@ Package Your Python Code
 
 ```console
 ├── app.py
+├── build
+│   ├── bdist.linux-x86_64
+│   └── lib
+│       └── package
+│           ├── api.py
+│           ├── __init__.py
+│           └── __version__.py
+├── dist
+│   ├── ktechhub-0.0.1-py3-none-any.whl
+│   └── ktechhub-0.0.1.tar.gz
+├── image.png
+├── ktechhub.egg-info
+│   ├── dependency_links.txt
+│   ├── PKG-INFO
+│   ├── requires.txt
+│   ├── SOURCES.txt
+│   └── top_level.txt
+├── LICENSE
 ├── package
 │   ├── api.py
 │   ├── __init__.py
